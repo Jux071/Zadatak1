@@ -6,4 +6,8 @@ class Student
     @last_name = last_name
     @skills = skills  	
   end
+
+  def to_st
+  	"#{first_name}, #{last_name}, #{skills}"  	
+  end
 end
