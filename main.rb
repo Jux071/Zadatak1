@@ -9,15 +9,16 @@ course = Course.new('Ruby on Rails', [st1, st2, st3])
 
 #puts course
 
-#ruby_developers = course.students.
+ruby_developers = course.students
 
-# course.students.each do |student|
-#   student.skills.each do |skill|
-#   	if (skill == 'ruby')
-#   	  puts student.first_name
-#   	end
-#   end
-# end
+course.students.each do |student|
+  student.skills.each do |skill|
+  	if (skill == 'ruby')
+  	  puts student.first_name
+  	end
+  end
+end
+
 
 #course.students.each do |student|
 #  student.skills.each do |skill|
@@ -40,4 +41,4 @@ course = Course.new('Ruby on Rails', [st1, st2, st3])
 # puts novi_niz1
 
 
-puts novi_niz
+#puts novi_niz
